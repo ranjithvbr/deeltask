@@ -1,8 +1,9 @@
 import React from "react";
-import MockData from "./assert/mockData.json";
-import { ReactComponent as ArrowForward } from "./assert/arrow-forward.svg";
-import "./InvoiceList.css";
 import { useNavigate } from "react-router-dom";
+import MockData from "./assert/mockData.json";
+import "./InvoiceList.css";
+
+import { ReactComponent as ArrowForward } from "./assert/arrow-forward.svg";
 
 export interface itemTypes {
   first_name: string;
@@ -44,13 +45,9 @@ function InvoiceList() {
                 >
                   <td>{index + 1}</td>
                   <td>{item.first_name + " " + item.last_name}</td>
-                  <td>
-                    {item.from_date} - {item.to_date}
-                  </td>
+                  <td>{item.from_date} - {item.to_date}</td>
                   <td className="amount-cell">${item.basic_salary + item.allowance}</td>
-                  <td>
-                    <ArrowForward />
-                  </td>
+                  <td><ArrowForward /></td>
                 </tr>
               );
             })}

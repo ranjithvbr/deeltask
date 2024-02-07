@@ -1,13 +1,14 @@
+import { useCallback } from "react";
 import { Capacitor } from "@capacitor/core";
 import { Filesystem, Directory } from "@capacitor/filesystem";
+import { LocalNotifications } from "@capacitor/local-notifications";
 import pdfMake from "pdfmake/build/pdfmake";
 import { TCreatedPdf } from "pdfmake/build/pdfmake";
 import pdfFonts from "pdfmake/build/vfs_fonts";
-import DeelLogo from "./assert/deel.jpg";
 import { itemTypes } from "./InvoiceList";
+import DeelLogo from "./assert/deel.jpg";
+
 import { ReactComponent as Download } from "./assert/download.svg";
-import { useCallback } from "react";
-import { LocalNotifications } from "@capacitor/local-notifications";
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
 function downloadWebPdf(pdfDoc: TCreatedPdf, fileName: string) {
@@ -120,7 +121,7 @@ export const PdfDownloader: React.FC<{ invoiceDetails: itemTypes }> = ({ invoice
           },
         },
       };
-      const fileName = "invoice2.pdf";
+      const fileName = invoiceDetails?.first_name + "_" + invoiceDetails?.invoice_no;
       const pdfDocGenerator = pdfMake.createPdf(docDefinition);
       if (Capacitor.getPlatform() === "web") {
         downloadWebPdf(pdfDocGenerator, fileName);

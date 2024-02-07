@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { ReactComponent as DeelLogo } from "./assert/deel-logo-blue.svg";
-import { ReactComponent as BackArrow } from "./assert/arrow-back.svg";
+import { Capacitor } from "@capacitor/core";
+import { PdfDownloader } from "./PdfDownloader";
 import { itemTypes } from "./InvoiceList";
 import "./InvoiceDetail.css";
-import { PdfDownloader } from "./PdfDownloader";
-import { Capacitor } from "@capacitor/core";
+
+import { ReactComponent as DeelLogo } from "./assert/deel-logo-blue.svg";
+import { ReactComponent as BackArrow } from "./assert/arrow-back.svg";
 
 const InvoiceDetail = () => {
   const navigate = useNavigate();
+  let location = useLocation();
+
   const [invoiceDetails, setInvoiceDetails] = useState<itemTypes>({
     first_name: "",
     last_name: "",
@@ -20,7 +23,6 @@ const InvoiceDetail = () => {
     basic_salary: 0,
     allowance: 0,
   });
-  let location = useLocation();
 
   useEffect(() => {
     if (location.state?.first_name) {
@@ -95,11 +97,11 @@ const InvoiceDetail = () => {
                 <td>Allowance</td>
                 <td>{invoiceDetails?.allowance}.00</td>
               </tr>
-              <tr className="amountContainer">
+              <tr className="amount-container">
                 <td>VAT Total</td>
                 <td>0.00</td>
               </tr>
-              <tr className="amountContainer">
+              <tr className="amount-container">
                 <td>Total Due</td>
                 <td>${invoiceDetails?.basic_salary + invoiceDetails?.allowance}.00</td>
               </tr>
