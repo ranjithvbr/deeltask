@@ -121,7 +121,7 @@ export const PdfDownloader: React.FC<{ invoiceDetails: itemTypes }> = ({ invoice
           },
         },
       };
-      const fileName = invoiceDetails?.first_name + "_" + invoiceDetails?.invoice_no;
+      const fileName = invoiceDetails?.first_name + "_" + invoiceDetails?.invoice_no + ".pdf";
       const pdfDocGenerator = pdfMake.createPdf(docDefinition);
       if (Capacitor.getPlatform() === "web") {
         downloadWebPdf(pdfDocGenerator, fileName);
