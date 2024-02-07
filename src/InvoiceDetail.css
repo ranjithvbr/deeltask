@@ -1,0 +1,124 @@
+.invoice-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .invoice-container {
+    width: 95%;
+  }
+}
+
+.native-invoice-container {
+  width: 95%;
+}
+
+.invoice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invoice-detail-container {
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 12px 12px 100px;
+}
+
+.detail-header {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.billing-from-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.billing-from-detail > div,
+.billing-to-detail > div {
+  font-weight: 600;
+}
+
+.invoice-dates > div:nth-child(2) {
+  font-weight: 600;
+  text-align: right;
+}
+
+.billing-to-detail {
+  margin-top: 40px;
+}
+
+.invoice-dates {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  white-space: nowrap;
+}
+
+.invoice-table {
+  margin-top: 40px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-table td,
+.invoice-table th {
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+}
+
+.invoice-table th {
+  background-color: #dddddd;
+}
+
+.invoice-table td:nth-child(2),
+.invoice-table th:nth-child(2) {
+  text-align: right;
+}
+
+.amountContainer td {
+  border: none;
+  text-align: right;
+  font-weight: 600;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid;
+  background-color: #15357a;
+  color: white;
+  padding: 6px 12px;
+}
+
+button svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+button:not(.back-button) svg path {
+  fill: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #4264ad;
+}
+
+.back-button {
+  background-color: transparent;
+  color: black;
+}
+
+.back-button:hover {
+  background-color: #dedede;
+}

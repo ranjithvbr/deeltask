@@ -1,0 +1,42 @@
+.list-continer table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.list-continer th {
+  border-collapse: collapse;
+  color: #8e8e8e;
+  font-weight: normal;
+}
+
+.end {
+  color: #8e8e8e;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.list-item {
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.list-item > td {
+  text-align: center;
+}
+
+.list-item:hover {
+  cursor: pointer;
+  background-color: #f0f1f3;
+}
+
+.list-item:hover > td {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+  .amount-cell {
+    display: none;
+  }
+}

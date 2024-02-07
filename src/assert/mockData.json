@@ -1,0 +1,222 @@
+[
+    {
+        "first_name": "Amory",
+        "last_name": "Lefever",
+        "from_date": "15/12/2023",
+        "to_date": "14/01/2024",
+        "address": "18301 Mallory Avenue",
+        "country": "China",
+        "invoice_no": "01HVZWYB",
+        "basic_salary": 7226,
+        "allowance": 2338
+    },
+    {
+        "first_name": "Barrie",
+        "last_name": "Sinnott",
+        "from_date": "01/12/2023",
+        "to_date": "03/01/2024",
+        "address": "01841 Cody Plaza",
+        "country": "Philippines",
+        "invoice_no": "01HEDBZ9",
+        "basic_salary": 3665,
+        "allowance": 2433
+    },
+    {
+        "first_name": "Willie",
+        "last_name": "Gallamore",
+        "from_date": "25/12/2023",
+        "to_date": "23/01/2024",
+        "address": "85037 Michigan Hill",
+        "country": "East Timor",
+        "invoice_no": "01H5Z6GT",
+        "basic_salary": 8234,
+        "allowance": 4210
+    },
+    {
+        "first_name": "Inger",
+        "last_name": "Gunter",
+        "from_date": "08/12/2023",
+        "to_date": "29/01/2024",
+        "address": "97 Oak Valley Parkway",
+        "country": "Czech Republic",
+        "invoice_no": "01HCS94E",
+        "basic_salary": 4642,
+        "allowance": 2985
+    },
+    {
+        "first_name": "Tommi",
+        "last_name": "Salleir",
+        "from_date": "16/12/2023",
+        "to_date": "16/01/2024",
+        "address": "8205 Hauk Avenue",
+        "country": "United States",
+        "invoice_no": "01HNSVG9",
+        "basic_salary": 8254,
+        "allowance": 4822
+    },
+    {
+        "first_name": "Maggy",
+        "last_name": "Warbrick",
+        "from_date": "13/12/2023",
+        "to_date": "07/01/2024",
+        "address": "0 Ilene Court",
+        "country": "Bangladesh",
+        "invoice_no": "01HGFE0M",
+        "basic_salary": 6067,
+        "allowance": 1369
+    },
+    {
+        "first_name": "Annissa",
+        "last_name": "Duhig",
+        "from_date": "27/12/2023",
+        "to_date": "21/01/2024",
+        "address": "552 Moose Alley",
+        "country": "China",
+        "invoice_no": "01HF4GDR",
+        "basic_salary": 7841,
+        "allowance": 4279
+    },
+    {
+        "first_name": "Marje",
+        "last_name": "Hebbs",
+        "from_date": "20/12/2023",
+        "to_date": "21/01/2024",
+        "address": "40208 Cody Terrace",
+        "country": "Japan",
+        "invoice_no": "01H0P2V3",
+        "basic_salary": 4800,
+        "allowance": 4289
+    },
+    {
+        "first_name": "Korney",
+        "last_name": "Thorneloe",
+        "from_date": "16/12/2023",
+        "to_date": "04/02/2024",
+        "address": "374 Fulton Drive",
+        "country": "China",
+        "invoice_no": "01HFFW56",
+        "basic_salary": 5716,
+        "allowance": 3149
+    },
+    {
+        "first_name": "Had",
+        "last_name": "Chatelain",
+        "from_date": "28/12/2023",
+        "to_date": "03/01/2024",
+        "address": "53 Bowman Avenue",
+        "country": "Indonesia",
+        "invoice_no": "01H9CR55",
+        "basic_salary": 8769,
+        "allowance": 1437
+    },
+    {
+        "first_name": "Abdel",
+        "last_name": "Chappelow",
+        "from_date": "13/12/2023",
+        "to_date": "05/01/2024",
+        "address": "53894 Manitowish Way",
+        "country": "Czech Republic",
+        "invoice_no": "01H68BZ6",
+        "basic_salary": 5014,
+        "allowance": 2469
+    },
+    {
+        "first_name": "Niven",
+        "last_name": "Brou",
+        "from_date": "16/12/2023",
+        "to_date": "16/01/2024",
+        "address": "564 Spaight Plaza",
+        "country": "Colombia",
+        "invoice_no": "01HWYG12",
+        "basic_salary": 6375,
+        "allowance": 4989
+    },
+    {
+        "first_name": "Linc",
+        "last_name": "Wrefford",
+        "from_date": "12/12/2023",
+        "to_date": "29/01/2024",
+        "address": "46 Laurel Parkway",
+        "country": "China",
+        "invoice_no": "01H16X0R",
+        "basic_salary": 3742,
+        "allowance": 1465
+    },
+    {
+        "first_name": "Crystal",
+        "last_name": "Bradtke",
+        "from_date": "19/12/2023",
+        "to_date": "17/01/2024",
+        "address": "38846 Spaight Pass",
+        "country": "China",
+        "invoice_no": "01H6XQGS",
+        "basic_salary": 6631,
+        "allowance": 4574
+    },
+    {
+        "first_name": "Royce",
+        "last_name": "Bernardin",
+        "from_date": "13/12/2023",
+        "to_date": "05/01/2024",
+        "address": "35 Magdeline Trail",
+        "country": "Greece",
+        "invoice_no": "01HM4Q45",
+        "basic_salary": 4089,
+        "allowance": 1590
+    },
+    {
+        "first_name": "Ives",
+        "last_name": "Brosenius",
+        "from_date": "01/12/2023",
+        "to_date": "08/01/2024",
+        "address": "422 Comanche Park",
+        "country": "Burkina Faso",
+        "invoice_no": "01HABDRC",
+        "basic_salary": 3222,
+        "allowance": 3848
+    },
+    {
+        "first_name": "Shurlock",
+        "last_name": "Corrin",
+        "from_date": "21/12/2023",
+        "to_date": "21/01/2024",
+        "address": "2891 Arapahoe Alley",
+        "country": "China",
+        "invoice_no": "01H4AHB1",
+        "basic_salary": 3595,
+        "allowance": 4032
+    },
+    {
+        "first_name": "Nanci",
+        "last_name": "Askwith",
+        "from_date": "05/12/2023",
+        "to_date": "12/01/2024",
+        "address": "8 Everett Court",
+        "country": "Japan",
+        "invoice_no": "01H6N2JB",
+        "basic_salary": 3435,
+        "allowance": 3147
+    },
+    {
+        "first_name": "Chiarra",
+        "last_name": "Bountiff",
+        "from_date": "19/12/2023",
+        "to_date": "03/01/2024",
+        "address": "225 Schmedeman Road",
+        "country": "Russia",
+        "invoice_no": "01HMWCYK",
+        "basic_salary": 8336,
+        "allowance": 2609
+    },
+    {
+        "first_name": "Martina",
+        "last_name": "Girodin",
+        "from_date": "03/12/2023",
+        "to_date": "29/01/2024",
+        "address": "098 Stone Corner Hill",
+        "country": "Tanzania",
+        "invoice_no": "01HVJ2NW",
+        "basic_salary": 4189,
+        "allowance": 4166
+    }
+]
