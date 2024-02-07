@@ -1,5 +1,5 @@
-# Completed task also availble in the below link  
-[https://fastidious-manatee-690d86.netlify.app/](https://fastidious-manatee-690d86.netlify.app/)
+# Completed task also availble in the below link
+[https://cozy-strudel-9c8d40.netlify.app/](https://cozy-strudel-9c8d40.netlify.app/)
 
 ## Web app
 
