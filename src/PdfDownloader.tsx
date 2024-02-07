@@ -5,7 +5,7 @@ import { LocalNotifications } from "@capacitor/local-notifications";
 import pdfMake from "pdfmake/build/pdfmake";
 import { TCreatedPdf } from "pdfmake/build/pdfmake";
 import pdfFonts from "pdfmake/build/vfs_fonts";
-import { itemTypes } from "./InvoiceList";
+import { InvoiceDataTypes } from "./InvoiceList";
 import DeelLogo from "./assert/deel.jpg";
 
 import { ReactComponent as Download } from "./assert/download.svg";
@@ -36,10 +36,9 @@ const sendDownloadNotification = () => {
   });
 };
 
-export const PdfDownloader: React.FC<{ invoiceDetails: itemTypes }> = ({ invoiceDetails }) => {
+export const PdfDownloader: React.FC<{ invoiceDetails: InvoiceDataTypes }> = ({ invoiceDetails }) => {
   const handleInvoiceDownload = useCallback(async () => {
     try {
-      await LocalNotifications.requestPermissions();
       const docDefinition: any = {
         content: [
           {
@@ -126,6 +125,7 @@ export const PdfDownloader: React.FC<{ invoiceDetails: itemTypes }> = ({ invoice
       if (Capacitor.getPlatform() === "web") {
         downloadWebPdf(pdfDocGenerator, fileName);
       } else {
+        await LocalNotifications.requestPermissions();
         pdfDocGenerator.getBase64((base64: string) => {
           Filesystem.writeFile({
             path: fileName,

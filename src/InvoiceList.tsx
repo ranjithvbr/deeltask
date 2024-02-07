@@ -5,7 +5,7 @@ import "./InvoiceList.css";
 
 import { ReactComponent as ArrowForward } from "./assert/arrow-forward.svg";
 
-export interface itemTypes {
+export interface InvoiceDataTypes {
   first_name: string;
   last_name: string;
   from_date: string;
@@ -32,7 +32,7 @@ function InvoiceList() {
               <th className="amount-cell">Total Due</th>
               <th>Action</th>
             </tr>
-            {MockData.map((item: itemTypes, index: number) => {
+            {MockData.map((item: InvoiceDataTypes, index: number) => {
               return (
                 <tr
                   className="list-item"

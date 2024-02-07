@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Capacitor } from "@capacitor/core";
 import { PdfDownloader } from "./PdfDownloader";
-import { itemTypes } from "./InvoiceList";
+import { InvoiceDataTypes } from "./InvoiceList";
 import "./InvoiceDetail.css";
 
 import { ReactComponent as DeelLogo } from "./assert/deel-logo-blue.svg";
@@ -12,7 +12,7 @@ const InvoiceDetail = () => {
   const navigate = useNavigate();
   let location = useLocation();
 
-  const [invoiceDetails, setInvoiceDetails] = useState<itemTypes>({
+  const [invoiceDetails, setInvoiceDetails] = useState<InvoiceDataTypes>({
     first_name: "",
     last_name: "",
     from_date: "",
