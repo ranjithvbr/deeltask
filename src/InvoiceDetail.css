@@ -1,5 +1,6 @@
 .invoice-container {
-  width: 50%;
+  width: 600px;
+  min-width: 300px;
   margin: 0 auto;
 }
 

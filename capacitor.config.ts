@@ -5,7 +5,7 @@ const config: CapacitorConfig = {
   appName: 'deeltask',
   webDir: 'build',
   server: {
-    // url: 'localhost', // add your localhost to see real time changes on native device
+    // url: '', // add localIP here to see real-time changes on native device
     cleartext: true,
   },
   plugins: {
